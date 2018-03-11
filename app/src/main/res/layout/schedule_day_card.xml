@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rect_shape"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+    <TextView
+        android:id="@+id/teamA"
+        android:text="Chitkara University "
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/versus"
+        android:layout_toStartOf="@+id/versus"/>
+
+    <ImageView
+        android:id="@+id/versus"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/volley_boys"
+        />
+
+    <TextView
+        android:id="@+id/teamsecond"
+        android:text="Chitkara Universitry"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/versus"
+        android:layout_toRightOf="@+id/versus"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamA"
+        android:layout_marginLeft="10dp"
+        android:text="Venue : LT PCSA"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/time"
+        android:text="Time: 10:00AM - 12:00 "
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/venue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+ 
+</RelativeLayout>
